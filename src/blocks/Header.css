@@ -1,4 +1,23 @@
 .header{
-    max-width: 1280px;
+    width: 100%;
+    margin: auto;
     background-color: #1F2937;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.header__content{
+    display: flex;
+    width: 90%;
+    margin: 1em auto;
+}
+
+.header__logo{
+    max-width: 250px;
+    font-size: 2.5em;
+}
+
+.header__container{
+    width: 450px;
 }
